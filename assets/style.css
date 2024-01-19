@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --discord-primary: rgba(49, 97, 224, 1);
+    --discord-dark: rgba(35, 39, 42, 1);
+    --discord-lighter: rgba(246, 246, 246, 1);
+    --discord-light: rgba(255, 255, 255, 1);
+    --discord-font-color: rgba(142, 161, 225, 1);
+    --discord-font-footer: rgba(87, 103, 158, 1);
+}
+
+/* style container header */
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--discord-primary);
+    margin: 3px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+/* Nav style */
+.left {
+    width: 25%;
+
+
+}
+
+.center {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    font-weight: 200;
+}
+
+button {
+    text-align: center;
+    padding: 6px;
+    border-radius: 90px;
+    width: 70px;
+    background: white;
+    border: unset;
+    font-family: auto;
+    margin-left: 80px
+}
+
+/* end style nav */
