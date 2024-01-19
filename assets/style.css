@@ -68,14 +68,10 @@ ul {
     color: var(--discord-light);
     display: flex;
     justify-content: center;
-    height: 320px;
 
 }
 
-/* main{
-    background-image: url(./img/stars.svg);
-}
- */
+
 .container_flex {
     text-align: center;
     flex-direction: column;
@@ -125,12 +121,10 @@ ul {
     margin: 40px;
 }
 
-.container_box1 {
-    background-image: url(./img/item1.svg);
-    background-size: cover;
-    background-position: center;
-    height: 320px;
-    width: 400px;
+.container_img {
+ background-size: cover;
+ background-position: center;
+
 }
 
 .container_box2 {
@@ -147,16 +141,9 @@ ul {
     justify-content: space-evenly;
     background-color: var(--discord-lighter);
     margin: 40px;
-    height: 320px;
+
 }
 
-.container_box_third {
-    background-image: url(./img/item2.svg);
-    background-size: cover;
-    background-position: center;
-    height: 320px;
-    width: 400px;
-}
 
 h2 {
     margin-bottom: 10px;
@@ -169,16 +156,45 @@ h2 {
     display: flex;
     justify-content: space-around;
     background-color: var(--discord-light);
-    margin: 40px;
-    height: 320px;
 }
 
-.container_fourth_image {
-    background-image: url(./img/item3.svg);
-    background-size: cover;
-    background-position: center;
-    height: 320px;
-    width: 400px;
-}
 
 /*end fourth section  */
+.container_end_main {
+    display: flex;
+    justify-content: center;
+    background-color: var(--discord-light);
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_fifth {
+    text-align: center;
+    text-align: center;
+    width: 900px;
+    padding: 15px;
+}
+
+.custom_text {
+    text-align: center;
+    width: 50%;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.style_button {
+    text-align: center;
+    border-radius: 90px;
+    background: var(--discord-font-color);
+    border: unset;
+    height: 40px;
+    padding: 5px;
+    color: var(--discord-light);
+    margin: 30px;
+
+}
+/* end style of maine */
