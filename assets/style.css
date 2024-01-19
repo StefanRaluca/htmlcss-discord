@@ -71,6 +71,7 @@ ul {
     height: 320px;
 
 }
+
 /* main{
     background-image: url(./img/stars.svg);
 }
@@ -161,3 +162,23 @@ h2 {
     margin-bottom: 10px;
     font-size: 40px;
 }
+
+/* end of third section style */
+/* style fourth section */
+.container_fourth_section {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--discord-light);
+    margin: 40px;
+    height: 320px;
+}
+
+.container_fourth_image {
+    background-image: url(./img/item3.svg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    width: 400px;
+}
+
+/*end fourth section  */
