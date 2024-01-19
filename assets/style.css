@@ -111,4 +111,27 @@ h2 {
     color: white;
 
 }
+
 /* end style rst section main */
+/* style second section of main */
+.container_white {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 40px;
+}
+
+.container_box1 {
+    background-image: url(./img/item1.svg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    width: 400px;
+}
+
+.container_box2 {
+    height: 320px;
+    width: 300px;
+}
+
+/*  /*  end style second section of main */
