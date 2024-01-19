@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: var(--discord-primary);
-    margin: 3px;
+
 }
 
 
@@ -45,19 +45,70 @@ ul {
     display: flex;
     justify-content: center;
     gap: 80px;
-    color: white;
+    color: var(--discord-light);
     font-weight: 200;
 }
 
-button {
+.custom_button {
     text-align: center;
     padding: 6px;
     border-radius: 90px;
     width: 70px;
-    background: white;
+    background: var(--discord-light);
     border: unset;
     font-family: auto;
     margin-left: 80px
 }
 
 /* end style nav */
+.jumbo {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    color: var(--discord-light);
+    display: flex;
+    justify-content: center;
+    height: 320px;
+
+}
+
+.container_flex {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+h2 {
+    margin-bottom: 10px;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.button_main {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.left_button {
+    text-align: center;
+    border-radius: 90px;
+    background: var(--discord-light);
+    border: unset;
+    height: 40px;
+    padding: 5px;
+}
+
+.right_button {
+    text-align: center;
+    padding: 6px;
+    border-radius: 90px;
+    background: var(--discord-dark);
+    border: unset;
+    color: white;
+
+}
+/* end style rst section main */
