@@ -40,7 +40,7 @@ header {
     width: 50%;
 }
 
-ul {
+.center {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -122,8 +122,8 @@ ul {
 }
 
 .container_img {
- background-size: cover;
- background-position: center;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -197,4 +197,48 @@ h3 {
     margin: 30px;
 
 }
+
 /* end style of maine */
+/* style footer */
+.container_footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(35, 39, 42, 1);
+    height: 400px;
+}
+
+.container_with_logo {
+    width: 250px;
+    height: 300px;
+    align-self: center;
+    color: var(--discord-font-footer);
+}
+
+.container_box_information {
+    margin: 50px;
+    line-height: 1.5;
+}
+
+h5 {
+    color: var(--discord-font-footer);
+}
+
+hr {
+    margin: 0;
+}
+
+.contenitore_logo {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item_footer {
+    padding: 0;
+    list-style-type: none;
+}
+
+.logo {
+
+    border: dotted;
+}
