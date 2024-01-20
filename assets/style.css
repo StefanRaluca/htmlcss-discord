@@ -116,7 +116,7 @@ header {
 /* style second section of main */
 .container_second_section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 50px;
     margin: 40px;
 }
@@ -127,7 +127,7 @@ header {
 
 }
 
-.container_box2 {
+.container_box_text {
     height: 320px;
     width: 300px;
 }
@@ -154,8 +154,9 @@ h2 {
 /* style fourth section */
 .container_fourth_section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: var(--discord-light);
+
 }
 
 
@@ -171,7 +172,6 @@ h2 {
 
 .container_fifth {
     text-align: center;
-    text-align: center;
     width: 900px;
     padding: 15px;
 }
@@ -182,8 +182,9 @@ h2 {
     line-height: 1;
 }
 
-h3 {
-    font-size: 20px;
+h4 {
+
+    width: 70%;
 }
 
 .style_button {
@@ -199,46 +200,119 @@ h3 {
 }
 
 /* end style of maine */
+
+
+
 /* style footer */
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .container_footer {
     display: flex;
     justify-content: center;
     background-color: rgba(35, 39, 42, 1);
-    height: 400px;
+
 }
+/* style of footer task */
 
 .container_with_logo {
-    width: 250px;
     height: 300px;
     align-self: center;
     color: var(--discord-font-footer);
 }
+
+.logo_footer {
+    width: 30px;
+}
+
+.logo_footer_text {
+    color: var(--discord-light);
+
+}
+/* style of icons social media */
+
+.container_logo_icons {
+    display: flex;
+    fill: var(--discord-light);
+    justify-content: space-evenly;
+    padding: 5px;
+    gap: 20px;
+    width: 60%;
+
+}
+/* style of information with search bar in the footer */
 
 .container_box_information {
     margin: 50px;
     line-height: 1.5;
 }
 
-h5 {
-    color: var(--discord-font-footer);
+.container_box_1 {
+    margin: 50px;
+    line-height: 1.5;
 }
 
-hr {
-    margin: 0;
+h5 {
+    color: var(--discord-font-footer);
+
+}
+
+h4 {
+    width: 70%;
+    font-size: 25px;
+}
+
+.container_box_2 {
+    margin: 50px;
+    line-height: 1.5;
+}
+
+.container_box3 {
+    margin: 50px;
+    line-height: 1.5;
 }
 
 .contenitore_logo {
     display: flex;
     justify-content: space-around;
+    background-color: var(--discord-dark);
+    color: white;
+
+
+
+}
+
+
+.logo {
+    width: 50%;
 
 }
 
 .item_footer {
     padding: 0;
     list-style-type: none;
+    color: var(--discord-light);
 }
 
-.logo {
-
-    border: dotted;
+.style_btn {
+    text-align: center;
+    border-radius: 90px;
+    background: var(--discord-font-color);
+    border: unset;
+    padding: 10px;
+    color: var(--discord-light);
+    font-size: 14px;
 }
+
+
+
+
+
+
+hr {
+    width: 400px;
+    border-color: white;
+}
+/* end style of footer */
