@@ -215,12 +215,14 @@ footer {
     background-color: rgba(35, 39, 42, 1);
 
 }
+
 /* style of footer task */
 
 .container_with_logo {
     height: 300px;
     align-self: center;
     color: var(--discord-font-footer);
+    margin-top: 45px;
 }
 
 .logo_footer {
@@ -230,7 +232,9 @@ footer {
 .logo_footer_text {
     color: var(--discord-light);
 
+
 }
+
 /* style of icons social media */
 
 .container_logo_icons {
@@ -242,6 +246,7 @@ footer {
     width: 60%;
 
 }
+
 /* style of information with search bar in the footer */
 
 .container_box_information {
@@ -309,10 +314,9 @@ h4 {
 
 
 
-
-
 hr {
     width: 400px;
     border-color: white;
 }
+
 /* end style of footer */
